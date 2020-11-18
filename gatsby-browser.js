@@ -6,5 +6,7 @@ import "./src/normalize.css"
 // custom CSS styles
 import "./src/style.css"
 
+import "github-markdown-css"
+
 // Highlighting for code blocks
-import "prismjs/themes/prism.css"
+import "prism-themes/themes/prism-material-oceanic.css"

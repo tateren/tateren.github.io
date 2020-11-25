@@ -6,6 +6,6 @@ description: "コマンドラインから Composer をインストールする�
 
 `--1` オプションが使えるので以下のように指定する。
 
-```sh
+```bash
 curl -sS https://getcomposer.org/installer | php -- --1
 ```

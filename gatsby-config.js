@@ -5,7 +5,7 @@ module.exports = {
       name: `tateren`,
       summary: ``,
     },
-    description: `description`,
+    description: `メモ帳`,
     siteUrl: `https://tateren.github.io/`,
     social: {
       twitter: `tateren`,

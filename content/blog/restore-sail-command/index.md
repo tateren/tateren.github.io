@@ -1,5 +1,5 @@
 ---
-title: うっかり消した vendor/bin/sail を復元する方法
+title: うっかり消した vendor/bin/sail を復元する
 date: "2020-12-23T00:00:00Z"
 description: "うっかり消した vendor/bin/sail を復元する方法"
 ---

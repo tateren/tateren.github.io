@@ -4,5 +4,6 @@
 <url> <loc>https://tateren.github.io/install-composer-1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://tateren.github.io/restore-sail-command/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://tateren.github.io/pass-stdin-to-container/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://tateren.github.io/mt-error/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://tateren.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>

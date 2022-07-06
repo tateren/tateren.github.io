@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[tateren.github.io]]></title><description><![CDATA[メモ帳]]></description><link>https://tateren.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 24 May 2022 09:45:14 GMT</lastBuildDate><item><title><![CDATA[Laravel のバリデーションエラーメッセージに動的に値を埋め込む]]></title><description><![CDATA[attribute とか parameters…]]></description><link>https://tateren.github.io/laravel-dynamic-validation-error-message/</link><guid isPermaLink="false">https://tateren.github.io/laravel-dynamic-validation-error-message/</guid><pubDate>Tue, 24 May 2022 09:07:00 GMT</pubDate><content:encoded>&lt;p&gt;attribute とか parameters ではなくバリデーションの過程で得られる情報をエラーメッセージに埋め込みたかった。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[tateren.github.io]]></title><description><![CDATA[メモ帳]]></description><link>https://tateren.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 06 Jul 2022 09:54:27 GMT</lastBuildDate><item><title><![CDATA[coc-phpls を入れている環境で Enum を定義する]]></title><description><![CDATA[coc-phpls を入れている環境で Enum を定義しようとすると  というエラーが出た。  原因と解決方法 現行の Intelephense のターゲットの PHP バージョンのデフォルトが 7.4.0 だった。  で設定ファイルを開いて を追加してやれば良い。]]></description><link>https://tateren.github.io/coc-phpls-enum/</link><guid isPermaLink="false">https://tateren.github.io/coc-phpls-enum/</guid><pubDate>Wed, 06 Jul 2022 09:27:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/marlonfan/coc-phpls&quot;&gt;coc-phpls&lt;/a&gt; を入れている環境で Enum を定義しようとすると &lt;code class=&quot;language-text&quot;&gt;[intelephense 1001] [E] Unexpected &amp;#39;Name&amp;#39;. Expected &amp;#39;;&amp;#39;.&lt;/code&gt; というエラーが出た。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 483px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c3e00250864adb3dfb71dad5440fb6be/77a9e/error.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.60759493670886%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABDUlEQVQoz51Ry26DMBD0v0B4Bz/A2DFgCL1UfUStOFTqvf//CdN1ElUqUg/lMNrZtTyr2WEF78DbHodCIM4l4kwiKQLULjAhR2i1QNQDlLJotUVx1MiqdheY4B6jeYazT+BB0FgkVYOYtgUcSvXDrz0h2szDLKE+LRswXY+Y53dcPr7QCAfNLYx06JTDSfWQ4oRO3rglNMTdZt5S5dTn5IxxYVHVPc7dI+bpgsW/YND++tm3A53jJjA2A3pCWOSpNnexgbgJC2QQ7MByCqWVCxa7oppWHB8+keszWZG/rEV/WI62lkthoMSEqXsF92+Q80qh0IHpcVcolQipGtS1QyEHFMojo1ukd8H0n8Lf3fv7XEksyrAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;error&quot;
+        title=&quot;error&quot;
+        src=&quot;/static/c3e00250864adb3dfb71dad5440fb6be/77a9e/error.png&quot;
+        srcset=&quot;/static/c3e00250864adb3dfb71dad5440fb6be/c26ae/error.png 158w,
+/static/c3e00250864adb3dfb71dad5440fb6be/6bdcf/error.png 315w,
+/static/c3e00250864adb3dfb71dad5440fb6be/77a9e/error.png 483w&quot;
+        sizes=&quot;(max-width: 483px) 100vw, 483px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;原因と解決方法&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/bmewburn/intelephense-docs/blob/3e810bc2823754096710863d2d0c30382c0bee55/installation.md?plain=1#L480&quot;&gt;現行の Intelephense のターゲットの PHP バージョンのデフォルトが 7.4.0&lt;/a&gt; だった。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;:CocConfig&lt;/code&gt; で設定ファイルを開いて&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token property&quot;&gt;&quot;intelephense.environment.phpVersion&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;8.1.0&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;を追加してやれば良い。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Laravel のバリデーションエラーメッセージに動的に値を埋め込む]]></title><description><![CDATA[attribute とか parameters…]]></description><link>https://tateren.github.io/laravel-dynamic-validation-error-message/</link><guid isPermaLink="false">https://tateren.github.io/laravel-dynamic-validation-error-message/</guid><pubDate>Tue, 24 May 2022 09:07:00 GMT</pubDate><content:encoded>&lt;p&gt;attribute とか parameters ではなくバリデーションの過程で得られる情報をエラーメッセージに埋め込みたかった。&lt;/p&gt;
 &lt;h2&gt;実装例&lt;/h2&gt;
 &lt;p&gt;カンマ区切りの数値形式の文字列である事を検証するカスタムバリデーションルールで数値形式の文字列じゃなかった値をエラーメッセージに埋め込む。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;php&quot;&gt;&lt;pre class=&quot;language-php&quot;&gt;&lt;code class=&quot;language-php&quot;&gt;&lt;span class=&quot;token php language-php&quot;&gt;&lt;span class=&quot;token delimiter important&quot;&gt;&amp;lt;?php&lt;/span&gt;

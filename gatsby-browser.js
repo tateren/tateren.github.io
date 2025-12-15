@@ -9,4 +9,4 @@ import "./src/style.css"
 import "github-markdown-css"
 
 // Highlighting for code blocks
-import "prism-themes/themes/prism-material-oceanic.css"
+import "prism-themes/themes/prism-one-dark.css"

@@ -52,12 +52,12 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
-  --color-text: #2e353f;
-  --color-text-light: #4f5969;
-  --color-heading: #1a202c;
-  --color-heading-black: black;
-  --color-accent: #d1dce5;
+  --color-primary: #88c0d0;
+  --color-text: #d8dee9;
+  --color-text-light: #d8dee9;
+  --color-heading: #eceff4;
+  --color-heading-black: #eceff4;
+  --color-accent: #4c566a;
 }
 
 /* HTML elements */
@@ -76,6 +76,7 @@ html {
 }
 
 body {
+  background-color: #2e3440;
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);

@@ -26,4 +26,3 @@ PHP8.1 からはこう書けるらしい。
 <?php
 $grid->column('int')->display(number_format(...));
 ```
-

@@ -9,13 +9,17 @@ description: "Dockerコンテナに標準入力を渡す方法"
 以下のオプションで疑似TTYの割り当てを無効化すれば良い。
 
 ## docker コマンドの場合
+
 `-t` オプションを抜く。
+
 ```bash
 $ docker exec -i container_name mysql -u user_name db_name < foo.sql
 ```
 
 ## docker-compose コマンドの場合
+
 `-T` オプションを追加する。
+
 ```bash
 $ docker-compose exec -T service_name mysql -u user_name db_name < foo.sql
 ```

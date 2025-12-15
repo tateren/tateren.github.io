@@ -20,6 +20,7 @@ zsh: no such file or directory: ./vendor/bin/sail
 ```
 
 という訳で[公式ドキュメント](https://laravel.com/docs/8.x/sail#installing-composer-dependencies-for-existing-projects)に助けを求める。
+
 > You may install the application's dependencies by navigating to the application's directory and executing the following command. This command uses a small Docker container containing PHP and Composer to install the application's dependencies
 
 ```bash

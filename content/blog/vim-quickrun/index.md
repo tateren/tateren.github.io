@@ -7,10 +7,11 @@ description: "vim-quickrun のデフォルトだったキーマッピングを�
 Vim のプラグインを更新したら `<Leader>r` で vim-quickrun が実行できなくなった。
 
 https://github.com/thinca/vim-quickrun/blob/master/doc/quickrun.jax#L1029
+
 > デフォルトのキーマッピング(\<Leader>r)を削除。
 
 とのことなので .vimrc に追記した。
+
 ```vim
 nnoremap <leader>r :QuickRun<CR>
 ```
-

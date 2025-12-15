@@ -21,4 +21,3 @@ $worksheet->getSheetView()
 でOK
 
 [Documentation](https://phpoffice.github.io/PhpSpreadsheet/classes/PhpOffice-PhpSpreadsheet-Worksheet-SheetView.html#method_setView)
-

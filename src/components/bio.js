@@ -33,7 +33,7 @@ const Bio = () => {
   return (
     <div className="bio">
       <StaticImage
-          className="bio-avatar"
+        className="bio-avatar"
         layout="fixed"
         formats={["auto", "webp", "avif"]}
         src="../images/profile-pic.jpg"
@@ -41,7 +41,7 @@ const Bio = () => {
         height={50}
         quality={95}
         alt="Profile picture"
-        />
+      />
       {author?.name && (
         <p>
           Written by

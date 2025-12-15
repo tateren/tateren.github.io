@@ -57,7 +57,7 @@ module.exports = {
         trackingId: `G-6HYGS76WKK`,
       },
     },
-        {
+    {
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `

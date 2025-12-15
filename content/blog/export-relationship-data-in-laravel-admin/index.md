@@ -3,7 +3,9 @@ title: laravel-admin のエクスポートにリレーションデータを含�
 date: "2021-09-30T00:00:00.000Z"
 description: "laravel-admin のエクスポートにリレーションデータを含める方法"
 ---
+
 ## 経緯
+
 [Laravel admin | Data export](https://laravel-admin.org/docs/en/model-grid-export#Laravel-Excel%20v3.*)
 
 laravel-admin で Laravel-Excel を使用してデータエクスポートをする際に以下のような ExcelExporter クラスを作る。
@@ -41,6 +43,7 @@ class PostsExporter extends ExcelExporter
 と書けば出力できるんじゃないかと期待して試してみたが特にそんな事は無かった。
 
 ## 正しい実装方法
+
 WithMapping インターフェースを実装して map() をこんな感じにすれば期待する出力が得られた。
 
 ヘッダーは名前だけ指定すれば良いので $columns から $headings に変更している。

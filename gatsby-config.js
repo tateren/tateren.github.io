@@ -8,7 +8,7 @@ module.exports = {
     description: `メモ帳`,
     siteUrl: `https://tateren.github.io/`,
     social: {
-      twitter: `tateren`,
+      x: `tateren`,
     },
   },
   plugins: [
